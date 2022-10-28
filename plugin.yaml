@@ -1,0 +1,5 @@
+name: "carbon"
+usage: "helm carbon -run"
+description: |-
+  "Run carbon footprint estimation on helm charts"
+command: "echo The plugin is located in: \"$HELM_PLUGIN_DIR\" and its name is: \"$HELM_PLUGIN_NAME\""
