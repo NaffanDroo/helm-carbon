@@ -18,6 +18,9 @@ var estimateCmd = &cobra.Command{
 carbon footprint`,
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("estimate called")
+		// Suppress command usage on error
+		cmd.SilenceUsage = true
+
 	},
 }
 
