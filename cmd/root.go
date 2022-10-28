@@ -14,7 +14,7 @@ import (
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "v3",
+	Use:   "carbon",
 	Short: "A rudimentary carbon footprint calculater.",
 	Long: `The helm carbon plugin:
 
